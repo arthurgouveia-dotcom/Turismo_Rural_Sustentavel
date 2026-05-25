@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - Turismo Rural Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho Principal -->
+    <header>
+        <div class="container header-flex">
+            <div class="logo">
+                <h1>Agrinho <span>2026</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#pilares">Turismo Consciente</a></li>
+                    <li><a href="#quiz">Desafio EcoQuiz</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção Banner Principal -->
+    <section id="inicio" class="hero">
+        <div class="container hero-content">
+            <h2>Turismo Rural Sustentável</h2>
+            <p>Conectando pessoas à vida no campo através da preservação ambiental, cultura local e lazer consciente.</p>
+            <a href="#quiz" class="btn-principal">Iniciar Desafio do EcoTurista</a>
+        </div>
+    </section>
+
+    <!-- Seção de Conteúdo Pedagógico - Pilares do Turismo Rural -->
+    <section id="pilares" class="features container">
+        <div class="titulo-secao">
+            <h2>Pilares do Agroturismo Consciente</h2>
+            <p>Como viajar e conhecer o campo gerando impactos positivos para a comunidade e para a natureza</p>
+        </div>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">🏡</div>
+                <h3>Valorização Cultural</h3>
+                <p>Acolhimento familiar, culinária típica com alimentos da época e o resgate das tradições locais históricas.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🥾</div>
+                <h3>Ecoturismo de Baixo Impacto</h3>
+                <p>Trilhas planejadas para evitar a compactação do solo e passeios que educam sobre a fauna e flora regionais.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🍓</div>
+                <h3>Economia Circular</h3>
+                <p>Estímulo aos sistemas "colha e pague", onde o visitante consome direto do pequeno produtor sem intermediários.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Interativa - Quiz sobre Turismo Rural -->
+    <section id="quiz" class="quiz-section">
+        <div class="container quiz-container">
+            <h2>EcoQuiz do Agrinho</h2>
+            <p>Descubra se você sabe como ser um turista rural responsável e proteger o campo!</p>
+            
+            <div id="questoes-box">
+                <!-- Pergunta 1 -->
+                <div class="pergunta active" data-pergunta="1">
+                    <h3>1. Qual das seguintes práticas representa o Turismo Rural Sustentável?</h3>
+                    <button class="opcao-btn" data-correto="false">Modificar as paisagens naturais para construir grandes hotéis urbanos.</button>
+                    <button class="opcao-btn" data-correto="true">Hospedar-se em propriedades familiares rurais e consumir produtos da própria região.</button>
+                    <button class="opcao-btn" data-correto="false">Andar em alta velocidade com quadriciclos por áreas de preservação ambiental.</button>
+                </div>
+
+                <!-- Pergunta 2 -->
+                <div class="pergunta" data-pergunta="2">
+                    <h3>2. O que um turista deve fazer com os resíduos gerados durante uma trilha rural?</h3>
+                    <button class="opcao-btn" data-correto="true">Guardar todo o lixo na mochila e descartar em local adequado na pousada ou em casa.</button>
+                    <button class="opcao-btn" data-correto="false">Deixar restos de comida na mata por achar que eles servem como adubo natural.</button>
+                    <button class="opcao-btn" data-correto="false">Enterrar plásticos e latas perto de rios e nascentes para que fiquem escondidos.</button>
+                </div>
+
+                <!-- Pergunta 3 -->
+                <div class="pergunta" data-pergunta="3">
+                    <h3>3. Como o agroturismo beneficia o pequeno produtor do nosso estado?</h3>
+                    <button class="opcao-btn" data-correto="false">Forçando o produtor a abandonar a plantação para virar guia turístico exclusivo.</button>
+                    <button class="opcao-btn" data-correto="false">Aumentando o preço das sementes de forma artificial.</button>
+                    <button class="opcao-btn" data-correto="true">Diversificando a renda da família através da venda direta de alimentos e experiências rústicas.</button>
+                </div>
+            </div>
+
+            <!-- Caixa de Resultados -->
+            <div id="resultado-box" class="oculto">
+                <h3>Desafio Concluído com Sucesso!</h3>
+                <p id="placar-texto">Você acertou 0 de 3 perguntas.</p>
+                <button id="reiniciar-btn" class="btn-principal">Refazer Desafio</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 - Projeto Escolar desenvolvido para o Concurso Agrinho.</p>
+            <p>Foco na Educação Ambiental, Tecnologia e Desenvolvimento Regional.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
